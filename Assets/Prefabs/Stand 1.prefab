@@ -9,6 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4303592545156022433}
+  - component: {fileID: 2226350892768783935}
+  - component: {fileID: 1932240084882686211}
+  - component: {fileID: 4501055928669115867}
   m_Layer: 0
   m_Name: Stand 1
   m_TagString: Untagged
@@ -33,6 +36,82 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2226350892768783935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5439943919786732272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bbc2c1e63e98543830eec78d976795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedGuid: 
+--- !u!114 &1932240084882686211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5439943919786732272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6994fc41174539a489da39c699563eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MMOItemID: -1
+  Addressable: 
+  view: {fileID: 4501055928669115867}
+  reportMissingKeys: 0
+  value: 2147483647
+  OnValid:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5439943919786732272}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  OnInvalid:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5439943919786732272}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4501055928669115867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5439943919786732272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36442a6153b01b944a7bbb6bef68a838, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  model: {fileID: 1932240084882686211}
+  controller: {fileID: 0}
+  editAccess: 1
+  ReadOnStart: 1
 --- !u!1001 &4053257487248063713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -123,6 +202,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4972689003319681801, guid: ddd2496a8c9d8954c94e6541e6ab17a5, type: 3}
   m_PrefabInstance: {fileID: 4053257487248063713}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9025946447480135663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4972689003319681806, guid: ddd2496a8c9d8954c94e6541e6ab17a5, type: 3}
+  m_PrefabInstance: {fileID: 4053257487248063713}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6214565088848842759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9025946447480135663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bbc2c1e63e98543830eec78d976795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedGuid: 
 --- !u!1001 &5667128352196739258
 PrefabInstance:
   m_ObjectHideFlags: 0
